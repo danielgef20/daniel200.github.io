@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!-- Ejercicio 5.11-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fusi&oacute;n de Im&aacute;genes</title>
+        <style type="text/css">
+            #portada {
+                position: relative;
+                margin-left: 35%;
+            }
+            #portada img {
+                position: absolute;
+                left: 0;
+            }
+            #portada:hover .top1 {
+                opacity: 0;
+                -webkit-transition: opacity 3s linear;
+                transition: opacity 3s linear;
+            }
+            #portada:hover .top2 {
+                opacity: 0;
+                -webkit-transition: opacity 3s linear 3s;
+                transition: opacity 3s linear 3s;
+            }
+            #portada:hover .top3 {
+                opacity: 0;
+                -webkit-transition: opacity 3s linear 6s;
+                transition: opacity 3s linear 6s;
+            }
+            #portada:hover .top4 {
+                opacity: 0;
+                -webkit-transition: opacity 3s linear 9s;
+                transition: opacity 3s linear 9s;
+            }
+            #portada:hover .top5 {
+                opacity: 0;
+                -webkit-transition: opacity 3s linear 12s;
+                transition: opacity 3s linear 12s;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> <a href="../indexC5.html"><img src = "../../Capitulo 2/Ejemplos/Imagenes/home.png" width="65" height="50" alt = "Inicio"></a></h1>
+
+        <div id="portada">
+            <img class="top5" src="../imagenes/Kiryu_Coco.png" width="450" height="600" alt="Paisaje5">
+            <img class="top4" src="../imagenes/Kson.jpg" width="450" height="600" alt="Paisaje4"> 
+            <img class="top3" src="../imagenes/Kson.png" width="450" height="600" alt="Paisaje3"> 
+            <img class="top2" src="../imagenes/logo.png" width="450" height="600" alt="Paisaje2"> 
+            <img class="top1" src="../imagenes/oceano.jpg" width="450" height="600" alt="Paisaje1"> 
+        </div>
+    </body>
+</html>

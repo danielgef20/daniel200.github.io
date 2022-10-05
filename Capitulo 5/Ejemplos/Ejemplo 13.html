@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<!-- Fig 5.14: fusionarimagenes.html -->
+<!-- Fusionar una imagen en otra mediante CSS3-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fusion de imagenes</title>
+        <style type="text/css">
+            #portada
+            {
+                position: relative;
+                margin: 0 auto;
+            }
+            #portada img
+            {
+                position: absolute;
+                left: 0;
+                -webkit-transition: opacity 4s ease-in-out;
+                transition: opacity 4s ease-in-out;
+            }
+            #portada img.top:hover
+            {opacity:0;}
+        </style>
+    </head>
+    <body>
+        <h1> <a href="../indexC5.html"><img src = "../../Capitulo 2/Ejemplos/Imagenes/home.png" width="65" height="50" alt = "Inicio"></a></h1>
+        
+        <div id= "portada">
+            <img class="bottom" src="../imagenes/Kson.png" alt="Despues de la graduación">
+            <img class="top" src="../imagenes/Kiryu_Coco.png" alt="Antes de la graduación">
+        </div>
+    </body>
+</html>

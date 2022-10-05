@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<!-- Fig 4.10: posicionamiento2.html -->
+<!-- Posicionamiento relativo de los elementos. -->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Posicionamiento relativo</title>
+        <style type="text/css">
+            p   {font-size: 1.3em;
+                font-family: verdana, arial, sans-serif;}
+            span {color: red;
+                font-size: .6em;
+                height: 1em;}
+            .super {position: absolute;
+                top: -1ex;}
+            .sub {position: relative;
+                left: -1ex;}
+            .desplizq {position: relative;
+                left: -1ex;}
+            .desplder {position: relative;
+            right: -1ex;}
+        </style>
+    </head>
+    <body>
+        <h1> <a href="../indexC4.html"><img src = "../../Capitulo 2/Ejemplos/Imagenes/home.png" width="65" height="50" alt = "Inicio"></a></h1>
+        <p>El texto al final de esta oraci&oacute;n <span class="super">est&aacute; en super&iacute;dice</span></p>
+        <p>El texto al final de esta oraci&oacute;n <span class="sub">est&aacute; en sub&iacute;dice</span></p>
+        <p>El texto al final de esta oraci&oacute;n <span class="desplizq">est&aacute; desplazado a la izquierda</span></p>
+        <p>El texto al final de esta oraci&oacute;n <span class="desplder">est&aacute; desplazado a la derecha</span></p>
+    </body>
+</html>
